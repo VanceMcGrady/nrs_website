@@ -1,3 +1,5 @@
-body{
-    background-color: aqua;
+.colored-square {
+  height: 13vh;
+  width: 13vh;
+  background-color: black;
 }

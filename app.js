@@ -1,1 +1,1 @@
-console.log('this is working')
+const coloredSquare = document.querySelector(".colored-square");
