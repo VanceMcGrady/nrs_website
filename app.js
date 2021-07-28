@@ -1,7 +1,16 @@
-let mainContainer = document.getElementById("main-container");
-let coloredSquare = document.getElementById("colored-square");
-let randomColor = Math.floor(Math.random() * 16777215).toString(16);
+function createColoredSquares(numOfSquares) {
+  const mainContainer = document.querySelector(".main-container");
+  function randomColor() {
+    return Math.floor(Math.random() * 16777215).toString(16);
+  }
+  const colorSquare = document.querySelector(".colored-square");
 
-window.addEventListener("DOMContentLoaded", function () {
-  return coloredSquare;
-});
+  console.log(colorSquare);
+  for (i = 0; i < numOfSquares; i++) {
+    mainContainer.innerHTML += `<div class="colored-square" style="background-color: ${
+      "#" + randomColor()
+    }"></div>`;
+  }
+}
+
+createColoredSquares(5);

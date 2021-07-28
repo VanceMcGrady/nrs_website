@@ -1,9 +1,9 @@
-#colored-square {
+.colored-square {
   height: 13vh;
   width: 13vh;
-  background-color: black;
+  background-color: blueviolet;
 }
 
-#main-container {
+.main-container {
   display: flex;
 }
