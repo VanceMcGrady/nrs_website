@@ -13,4 +13,4 @@ function createColoredSquares(numOfSquares) {
   }
 }
 
-createColoredSquares(5);
+createColoredSquares(100);
