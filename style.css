@@ -17,5 +17,5 @@
 }
 
 .black-square:hover {
-  display: none;
+  opacity: 0;
 }
