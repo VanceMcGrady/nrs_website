@@ -15,6 +15,7 @@
 .main-container {
   display: flex;
   flex-wrap: wrap;
+  background-image: url(./images/colorbars.png);
 }
 
 .black-square:hover {
