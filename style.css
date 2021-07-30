@@ -2,6 +2,7 @@
   height: 13vh;
   width: 13vh;
   background-color: blueviolet;
+  position: absolute;
 }
 
 .black-square {
@@ -18,4 +19,13 @@
 
 .black-square:hover {
   opacity: 0;
+}
+
+.color-container {
+  position: fixed;
+}
+s .black-container {
+  position: fixed;
+  order: 1;
+  z-index: 1;
 }

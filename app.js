@@ -10,7 +10,7 @@ function createColoredSquares(numOfSquares) {
   for (i = 0; i < numOfSquares; i++) {
     mainContainer.innerHTML += `<div class="colored-square" style="background-color: ${
       "#" + randomColor()
-    }"></div> <div> <div class="black-square"></div> </div>`;
+    }"></div> <div class="black-square"></div>`;
   }
 }
 
