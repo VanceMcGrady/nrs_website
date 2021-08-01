@@ -1,32 +1,35 @@
-.colored-square {
-  height: 13vh;
-  width: 13vh;
-  background-color: blueviolet;
-  position: absolute;
-}
-
-.black-square {
-  background-color: black;
-  position: absolute;
-  height: 13vh;
-  width: 13vh;
-}
-
 .main-container {
-  display: flex;
-  flex-wrap: wrap;
-  background-image: url(./images/colorbars.png);
-}
-
-.black-square:hover {
-  opacity: 0;
+  height: 100%;
+  width: auto;
 }
 
 .color-container {
   position: fixed;
+  display: flex;
+  flex-wrap: wrap;
 }
-s .black-container {
+
+.black-container {
   position: fixed;
+  display: flex;
   order: 1;
   z-index: 1;
+  flex-wrap: wrap;
+}
+
+.colored-square {
+  height: 13vh;
+  width: 13vh;
+  background-color: blueviolet;
+}
+
+.black-square {
+  background-color: black;
+
+  height: 13vh;
+  width: 13vh;
+}
+
+.black-square:hover {
+  opacity: 0;
 }

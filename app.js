@@ -6,12 +6,16 @@ function createColoredSquares(numOfSquares) {
 
   const colorSquare = document.querySelector(".colored-square");
   const blackSquare = document.querySelector(".black-squares");
+  const colorContainer = document.querySelector(".color-container");
+  const blackContainer = document.querySelector(".black-container");
 
   for (i = 0; i < numOfSquares; i++) {
-    mainContainer.innerHTML += `<div class="colored-square" style="background-color: ${
+    colorContainer.innerHTML += `<div class="colored-square" style="background-color: ${
       "#" + randomColor()
-    }"></div> <div class="black-square"></div>`;
+    }"></div> `;
+
+    blackContainer.innerHTML += `<div class="black-square"></div>`;
   }
 }
 
-createColoredSquares(100);
+createColoredSquares(500);
