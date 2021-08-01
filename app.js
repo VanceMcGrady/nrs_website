@@ -18,4 +18,4 @@ function createColoredSquares(numOfSquares) {
   }
 }
 
-createColoredSquares(500);
+createColoredSquares(1000);

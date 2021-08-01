@@ -18,16 +18,16 @@
 }
 
 .colored-square {
-  height: 13vh;
-  width: 13vh;
+  height: 5vh;
+  width: 5vh;
   background-color: blueviolet;
 }
 
 .black-square {
   background-color: black;
 
-  height: 13vh;
-  width: 13vh;
+  height: 5vh;
+  width: 5vh;
 }
 
 .black-square:hover {
