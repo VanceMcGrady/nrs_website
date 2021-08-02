@@ -8,24 +8,31 @@
   z-index: 2;
   position: fixed;
   width: 500px;
-  height: 200px;
+  height: 500px;
   top: 50%;
   left: 50%;
-  margin-top: -100px; /* Negative half of height. */
+  margin-top: -250px; /* Negative half of height. */
   margin-left: -250px; /* Negative half of width. */
+  border: solid blanchedalmond;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.band-content img {
+  height: 100%;
+  width: 100%;
 }
 
 .color-container {
   height: 100%;
-  width: 100%;
+  width: 96.5%;
   position: fixed;
-  display: flex;
-  flex-wrap: wrap;
+  border: solid blanchedalmond;
   overflow: hidden;
 }
 .color-container img {
   height: 100%;
-  width: 97%;
+  width: 100%;
 }
 .black-container {
   position: fixed;
@@ -34,6 +41,7 @@
   z-index: 1;
   flex-wrap: wrap;
   height: 100%;
+  width: 100%;
 }
 
 .colored-square {
@@ -45,8 +53,8 @@
 .black-square {
   background-color: black;
 
-  height: 5vh;
-  width: 5vh;
+  height: 6vh;
+  width: 6vh;
 }
 
 .black-square:hover {
