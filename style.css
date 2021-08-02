@@ -3,18 +3,37 @@
   width: auto;
 }
 
+.band-content {
+  background-color: blanchedalmond;
+  z-index: 2;
+  position: fixed;
+  width: 500px;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px; /* Negative half of height. */
+  margin-left: -250px; /* Negative half of width. */
+}
+
 .color-container {
+  height: 100%;
+  width: 100%;
   position: fixed;
   display: flex;
   flex-wrap: wrap;
+  overflow: hidden;
 }
-
+.color-container img {
+  height: 100%;
+  width: 97%;
+}
 .black-container {
   position: fixed;
   display: flex;
   order: 1;
   z-index: 1;
   flex-wrap: wrap;
+  height: 100%;
 }
 
 .colored-square {

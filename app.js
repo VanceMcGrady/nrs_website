@@ -10,10 +10,9 @@ function createColoredSquares(numOfSquares) {
   const blackContainer = document.querySelector(".black-container");
 
   for (i = 0; i < numOfSquares; i++) {
-    colorContainer.innerHTML += `<div class="colored-square" style="background-color: ${
-      "#" + randomColor()
-    }"></div> `;
-
+    // colorContainer.innerHTML += `<div class="colored-square" style="background-color: ${
+    //   "#" + randomColor()
+    // }"></div> `;
     blackContainer.innerHTML += `<div class="black-square"></div>`;
   }
 }
