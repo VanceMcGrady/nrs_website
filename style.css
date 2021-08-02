@@ -16,6 +16,7 @@
   border: solid blanchedalmond;
   border-radius: 50px;
   overflow: hidden;
+  align-content: center;
 }
 
 .band-content img {
@@ -25,7 +26,7 @@
 
 .color-container {
   height: 100%;
-  width: 96.5%;
+  width: 100%;
   position: fixed;
   border: solid blanchedalmond;
   overflow: hidden;
@@ -48,9 +49,12 @@
   position: absolute;
   background-color: blue;
   z-index: 3;
+  width: 30%;
+  height: auto;
   top: 90%;
-  left: 25%;
-  align-content: center;
+  left: 50%;
+  margin-left: -15%;
+  text-align: center;
 }
 
 /* .colored-square {
@@ -62,8 +66,8 @@
 .black-square {
   background-color: black;
 
-  height: 6vh;
-  width: 6vh;
+  height: 10%;
+  width: 5%;
 }
 
 .black-square:hover {
